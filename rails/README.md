@@ -1,6 +1,6 @@
 # Ruby and Rails cheet sheet
 
-## Rails gem installation
+## gem installation
 
 ### Bundler
 
@@ -20,3 +20,7 @@ Sollution: `--with-cppflags="-Wno-compound-token-split-by-macro"`
 Error: `error: shifting a negative signed value is undefined [-Werror,-Wshift-negative-value]`
 
 Sollution: `--with-cppflags="-D_FORTIFY_SOURCE=0 -Wno-shift-negative-value`
+
+## Runnig rails app
+
+:point_right: Make sure you have SECRET_KEY_BASE set
