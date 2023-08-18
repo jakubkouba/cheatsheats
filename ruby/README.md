@@ -1,5 +1,11 @@
 # Ruby
 
+## Installation
+:bomb: `cannot load such file -- openssl (LoadError)` Old version of ruby (2.7 and less) use old version of openssl. 
+
+:wrench: Pass the openssl lib path explicitely with option `$ rvm install --with-openssl-dir=/usr/local/opt/openssl@1.1` (You need to have openssl@.1.1 instlled => `$ brew install openssl@1.1`) 
+
+
 ## Optimisation
 
 - Most od the performance problems with ruby is with memory and Garbage Collection. To reduce this issues we need to thin how ruby programs use a memory
